@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Home | Turker Bulut</title>
+  <meta charset="utf-8">
+  <link rel="icon" href="icon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> -->
+
+  <!-- Add icon library -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
+
+  <link href='style.css' rel='stylesheet'>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166235153-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-166235153-1');
+</script>
+
+
+
+</head>
+
+<body>
+
+  <br>
+
+  <div class="container-fluid pt-3 pb-1  text-center">
+    <h1 class="font-weight-bolder">TURKER BULUT<span style="color: #C00000"> IO</span></h1>
+ </div>
+
+ <nav class="nav bg-navyblue justify-content-center">
+  <a class="nav-link text-white font-weight-bold" href="index.html">HOME</a>
+  <a class="nav-link text-white font-weight-bold" href="blog.html">BLOG</a>
+  <a class="nav-link text-white font-weight-bold" href="offers.html">OFFERS</a>
+</nav>
+
+<!-- BLOG POST BEGINS HERE  -->
+
+
+<div class="container-fluid" style="margin-top:20px">
+
+  <h4>This is the blog post title</h4>
+
+  <figure>
+    <img src="test.jpg" alt="Trulli" style="width:100%">
+    <figcaption class="text-center" style="font-size: 85%"> <i> This is an image caption. </i> </figcaption>
+  </figure>
+
+  <p>Sunt in culpa qui officia deserunt mollit <a> anim id est laborum</a> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. <a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
+
+  </p>
+
+  <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+
+  <h5> <b> No all capitals </b> </h5>
+
+  <p>Sunt in culpa qui <strong> officia </strong> deserunt <i> mollit </i> anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+
+  <p><b> Other posts you might like:</b></p>
+  <ul>
+    <li> Post #1 </li>
+    <li> Post #2 </li>
+    <li> Post #3 </li>
+  </ul>
+
+
+  <!-- TODO: Update links to be variable here and adjust titles and images, etc. -->
+
+  <p class="font-weight-bold"> Share: 
+    <a href="mailto:?subject=[SUBJECT]&body=turkerbulutx.com" target="_blank" class="btn btn-light text-primary" title="Email"> <i class="fa fa-paper-plane"></i></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=turkerbulutx.com" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" class="btn btn-light text-primary" title="Facebook"> <i class="fa fa-facebook"></i></a>
+    <a href="https://twitter.com/share?url=turkerbulutx.com&text=<TITLE>" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" target="_blank" class="btn btn-light text-primary" title="Twitter"> <i class="fa fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/shareArticle?mini=true&url=turkerbulutx.com&t=<TITLE>" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" class="btn btn-light text-primary" title="LinkedIn"> <i class="fa fa-linkedin"></i></a>
+        <a onClick="CopyLink()" class="btn btn-light text-primary" title="Copy link"> <i class="fas fa-link"></i></a>
+      </p>
+
+
+      <br>
+
+
+    </div>
+
+
+    <!-- BLOG POST ENDS HERE  -->
+
+    
+
+
+
+
+
+    <script>
+      function copyTextToClipboard(text) {
+        var textArea = document.createElement("textarea");
+
+        textArea.value = text;
+
+        document.body.appendChild(textArea);
+
+        textArea.select();
+
+        try {
+          var successful = document.execCommand('copy');
+          var msg = successful ? 'successful' : 'unsuccessful';
+          console.log('Copying text command was ' + msg);
+        } catch (err) {
+          console.log('Oops, unable to copy');
+        }
+
+        document.body.removeChild(textArea);
+      }
+
+      function CopyLink() {
+        copyTextToClipboard(location.href);
+      }
+
+    </script>
+
+
+
+
+    <hr>
+    <div class="container-fluid bg-gray pt-3 pb-4">
+
+
+
+
+      <div class="row text-center justify-content-center">
+
+        <div class="col-11">
+
+
+          <!-- <p class="text-center"> Subscribe to my newsletter here. </p> -->
+          <p> Sign up below for my weekly newsletter. I keep it simple, stupid and share what I find most interesting or exciting. </p>
+        </div>
+      </div>
+
+      <form class="form-inline justify-content-center" action="https://tinyletter.com/turkerbulutx" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/turkerbulutx', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+        <div class="form-row">
+          <div class="col-8">
+            <input type="text" class="form-control" placeholder="Your email address" name="email" id="tlemail">
+            <input type="hidden" value="1" name="embed"/>
+          </div>
+          <div class="col-4">
+            <button type="submit" class="btn btn-default text-white">Sign up</button>
+          </div>
+        </div>
+      </form>
+
+
+    </div>
+         
+
+
+
+    <nav class="nav bg-navyblue justify-content-center">
+
+
+
+      <!-- <a class="nav-link text-white font-weight-bold" href="index.html">Email</a> -->
+      <a class="nav-link text-white font-weight-bold" href="blog.html">See all posts ></a>
+      <!-- <a class="nav-link text-white font-weight-bold" href="starthere.html">LinkedIn</a> -->
+    </nav>
+
+    <br>
+    <br>
+
+
+
+
+  </body>
+  </html>
