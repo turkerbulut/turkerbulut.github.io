@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<article class="post">
+
+  <h4>{{ page.title }}</h4>
+  <br>
+
+  <div class="entry">
+    {{ content }}
+  </div>
+  <br>
+	
+	{% include sharebuttons.html %}
+
+  {% include disqus.html %}
+</article>
