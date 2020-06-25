@@ -2,6 +2,22 @@
   
     {
 
+      "title"    : "Testing publishing",
+      "url"      : "/this-is-a-test-post/",
+      "category" : "",
+      "date"     : "June 24, 2020"
+    } ,
+  
+    {
+
+      "title"    : "Testing publishing",
+      "url"      : "/this-is-a-test-post-copy/",
+      "category" : "",
+      "date"     : "June 24, 2020"
+    } ,
+  
+    {
+
       "title"    : "Code snippets in a blog post",
       "url"      : "/code-snippets/",
       "category" : "HTML, Code",
