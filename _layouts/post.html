@@ -11,8 +11,20 @@ layout: default
     {{ content }}
   </div>
   <br>
-	
-	{% include sharebuttons.html %}
+  <hr>
 
-  {% include disqus.html %}
+	{% if page.next.url %} 
+	<p><strong> Next post: </strong> <a href="{{site.url}}{{page.next.url}}"> {{ page.next.title}} </a> </p>
+	{% endif %}
+
+	{% if page.previous.url %} 
+	<p><strong> Previous post: </strong> <a href="{{site.url}}{{page.previous.url}}"> {{ page.previous.title}} </a> </p>
+	{% endif %}
+
+	<p><strong> All posts: </strong> <a href="{{site.url}}/all-posts"> Here </a> </p>
+	
+
+	{% include sharebuttons.html %}
+	{% include disqus.html %}
+
 </article>

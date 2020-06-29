@@ -1,11 +1,10 @@
 ---
 layout: page
-title: example
-permalink: /example/
+title: My story
+permalink: /my-story/
 ---
 
 
-#### Header 4
 
 ##### Header 5
 

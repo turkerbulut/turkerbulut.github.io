@@ -2,30 +2,6 @@
   
     {
 
-      "title"    : "Testing publishing",
-      "url"      : "/this-is-a-test-post/",
-      "category" : "",
-      "date"     : "June 24, 2020"
-    } ,
-  
-    {
-
-      "title"    : "Testing publishing",
-      "url"      : "/this-is-a-test-post-copy/",
-      "category" : "",
-      "date"     : "June 24, 2020"
-    } ,
-  
-    {
-
-      "title"    : "Code snippets in a blog post",
-      "url"      : "/code-snippets/",
-      "category" : "HTML, Code",
-      "date"     : "August 12, 2019"
-    } ,
-  
-    {
-
       "title"    : "Some articles are just so short that we&#39;ve to make the footer stick",
       "url"      : "/super-short-article/",
       "category" : "Miscellaneous",
