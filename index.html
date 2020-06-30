@@ -1,4 +1,30 @@
 ---
-layout: null
+layout: default
 ---
-{{ site.posts.first }}
+
+<article class="post">
+
+  <h4>{{ site.posts.first.title }}</h4>
+  <br>
+
+  <div class="entry">
+    {{ site.posts.first.content }}
+  </div>
+  <br>
+  <hr>
+
+	{% if site.posts.first.next.url %} 
+	<p><strong> Next post: </strong> <a href="{{site.url}}{{page.next.url}}"> {{ page.next.title}} </a> </p>
+	{% endif %}
+
+	{% if site.posts.first.previous.url %} 
+	<p><strong> Previous post: </strong> <a href="{{site.url}}{{site.posts.first.previous.url}}"> {{ site.posts.first.previous.title}} </a> </p>
+	{% endif %}
+
+	<p><strong> All posts: </strong> <a href="{{site.url}}/all-posts"> Here </a> </p>
+	
+
+	{% include sharebuttons_index.html %}
+	{% include disqus.html %}
+
+</article>

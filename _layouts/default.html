@@ -1,29 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
+    <title> {% if page.title %} {{ page.title }} | {% endif %} {{ site.name }} </title>
 
     {% include meta.html %}
 
     {% include analytics.html %}
 
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/style.css" />
-    <script src="{{ site.baseurl }}/assets/script.js"></script>
-    <!-- <link rel="shortcut icon" type="image/png" href="/favicon.png"> -->
-    
-    <link rel="shortcut icon" href="{{ '/icon.ico' | absolute_url }}">
   </head>
 
   <body>
+
+  <p> {{ post.dir }} </p>
 
 <nav class="navbar navbar-light">
   <a class="navbar-brand font-weight-bolder" href="/" style="color: #444;">TURKER BULUT <span style="color: #C00000"> IO</span></a>
@@ -46,7 +34,6 @@
   </div>  
 </nav>
 
-
 <hr>
 <br>
 
@@ -60,7 +47,6 @@
 
 <hr>
 
-<!-- TODO: Update the links to function here.  -->
 <div class="container-fluid" style="margin-top:10px">
     <p class="font-weight-bold"> Send me a note:
       <a href="mailto:bulut@turkerbulut.io" target="_blank" class="btn bg-light text-primary" title="Email"> <i class="fa fa-envelope"></i></a>
