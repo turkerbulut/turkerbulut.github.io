@@ -21,6 +21,8 @@ An image, located within /images
 
 ![an image alt text]({{ site.baseurl }}/images/jekyll-logo.png "an image title")
 
+![ss]({{ site.baseurl }}/images/headshot.jpg "an image title")
+
 * A bulletted list
 - alternative syntax 1
 + alternative syntax 2
