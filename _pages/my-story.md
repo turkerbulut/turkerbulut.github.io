@@ -5,54 +5,21 @@ permalink: /my-story/
 ---
 
 
+Hi. I'm Bulut. Turker Bulut. Kind of like "Bond. James Bond." Except... I am real :) 
 
-##### Header 5
+I built a website because ... uhhh.. it's always been on my mind. Really 
 
-A link to [Jekyll Now](http://github.com/barryclark/jekyll-now/). A big ass literal link <http://github.com/barryclark/jekyll-now/>
+Test
 
-**bold section**
+I am going to write like I have never written before. I got 750 words to get to. No pressure. No judgment of how bad the thoughts might be. Just keep writing, the instructions say. 
 
-testing
-testing
-testintttt
+Okaayy.. Let's hink about what I want to get out of my head. Hmm. Maybe my latest intereaction with Leslie's dad. He is pretty conservative and border-line racist. He just talked to me about politics and on issues that I don't necessarily agree with him. Leslie came and interrupted. I remained silent. I din't know what to say to be honest.. Part of me felt like I wish i knew more. I wish I knew what to say. But I didn't. Is it even my place to comment on American politics? you could argue that it's not. I don't even have a vote. You could also argue that I must comment. At the end of the day, I work here, I live here. I contribute to the economy here. My work touches lives here. AMerican policies affect me. 
+
+Part of the silence is also lack of hope. Would it even make a difference? Leslie fights with him, has heated debates. Doesn't go anywhere. So, it doesn't matter.
 
 
-An image, located within /images
 
-![an image alt text]({{ site.baseurl }}/images/jekyll-logo.png "an image title")
 
-![ss]({{ site.baseurl }}/images/headshot.png "an image title")
 
-* A bulletted list
-- alternative syntax 1
-+ alternative syntax 2
-  - an indented list item
 
-1. An
-2. ordered
-3. list
 
-Inline markup styles:
-
-- _italics_
-- **bold**
-- `code()`
-
-> Blockquote
->> Nested Blockquote
-
-Syntax highlighting can be used with triple backticks, like so:
-
-```javascript
-/* Some pointless Javascript */
-var rawr = ["r", "a", "w", "r"];
-```
-
-Use two trailing spaces  
-on the right  
-to create linebreak tags  
-
-Finally, horizontal lines
-
-----
-****
